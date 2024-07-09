@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Navigation Styles Start Here */
+.navebar {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.navebar h3 {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.navebar button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #444444;
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+}
+/* Navigation Styles End Here */
+
+/* -------------------------------------- */
+
+/* Hero Section Style Start here */
+
+.hero-section{
+    background-image: url('./assets/Hero-bg.png');
+    text-align: center;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px dashed #444444;
+    border-bottom: 1px dashed #444444;
+}
+
+.hero-section
