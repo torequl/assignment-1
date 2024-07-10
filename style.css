@@ -117,6 +117,7 @@ body {
 .development-content .title-description p {
     color: #0d1321;
     font-family: Azeret Mono;
+    line-height: 30px;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -251,6 +252,7 @@ iframe {
 
 .target-container .text-content p {
     color: #0d1321;
+    line-height: 30px;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -274,15 +276,16 @@ iframe {
     border-radius: 10px;
 }
 
-.target-container .card .card-content h2 {
+.target-container .card .card-content h2 , .title {
     color: #0d1321;
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
 }
 
-.target-container .card .card-content p {
+.target-container .card .card-content p, .description {
     color: rgb(13, 19, 33);
+    line-height: 26px;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -373,6 +376,7 @@ iframe {
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* Feedback Section End Here */
