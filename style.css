@@ -220,8 +220,91 @@ body {
     border: 1px solid #0d132133;
     border-radius: 10px;
 }
-iframe{
+
+iframe {
     border-radius: 15px;
 }
 
 /* inspiration Section End here */
+
+/* -------------------------- */
+
+/* Target Section style start here */
+
+.target-container {
+    width: 1140px;
+    margin: 150px auto;
+}
+
+.target-container .text-content {
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.target-container .text-content h2 {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target-container .text-content p {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.target-container .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.target-container .card .card-content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.target-container .card .card-content img {}
+
+.target-container .card .card-content h2 {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.target-container .card .card-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.target-container .card .card-content button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.bg-red{
+    background-color: #FF4C1E0D;
+}
+.bg-blue{
+    background-color: #004CE80D;
+}
+.bg-yellow{
+    background-color: #FFDF000D;
+}
