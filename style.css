@@ -90,7 +90,7 @@ body {
 
 /* -------------------------------- */
 
-/* Card Section */
+/* Card Section Start */
 
 .development-container {
     width: 1140px;
@@ -176,3 +176,52 @@ body {
 .card-2 .card-right {
     width: 50%;
 }
+
+/* Card Section End */
+
+/* ---------------------- */
+
+/* inspiration Section Start here */
+
+.inspiration-container {
+    position: relative;
+    margin: 70px auto;
+    width: 1140px;
+    height: 750px;
+    text-align: center;
+}
+
+.inspiration-container .text-content {
+    padding: 0 100px;
+}
+
+.inspiration-container .text-content h2 {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.inspiration-container .text-content p {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.inspiration-container .youtube-video {
+    margin-top: 50px;
+    width: 1140px;
+    height: 614px;
+    padding: 50px;
+    border: 1px solid #0d132133;
+    border-radius: 10px;
+}
+iframe{
+    border-radius: 15px;
+}
+
+/* inspiration Section End here */
