@@ -326,7 +326,6 @@ iframe {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 1px solid red;
 }
 
 .feedback-content {
@@ -352,6 +351,7 @@ iframe {
 .feedback-form {
     margin: 20px 0;
 }
+
 .feedback-form input {
     width: 548px;
     padding: 15px 30px;
@@ -364,7 +364,8 @@ iframe {
     border: none;
     outline: none;
 }
-.feedback-form button{
+
+.feedback-form button {
     padding: 15px 25px;
     background-color: white;
     border: none;
@@ -373,4 +374,35 @@ iframe {
     font-size: 16px;
     font-weight: 600;
 }
+
 /* Feedback Section End Here */
+
+/* ------------------------- */
+
+/* Footer Style Start here */
+
+footer {
+    width: 1440px;
+    height: 100px;
+    background-color: #0D132108;
+}
+
+.footer-container {
+    margin: 0 auto;
+    height: 100%;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright h2 {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social-icon img{
+    margin-left: 20px;
+}
