@@ -85,3 +85,94 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* Hero Section Style End here */
+
+/* -------------------------------- */
+
+/* Card Section */
+
+.development-container {
+    width: 1140px;
+    padding: 80px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: #0d132105;
+}
+
+.development-content {}
+
+.development-content .title-description {
+    text-align: center;
+}
+
+.development-content .title-description h2 {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.development-content .title-description p {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.development-content .card-1 {
+    border-radius: 15px;
+    background: linear-gradient(90deg, #ffffff, #ffffff00 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.card-1 .card-left {
+    width: 50%;
+}
+
+.card-left h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.card-left p {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.development-content .card-btn {
+    padding: 10px 20px;
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #0D1321;
+}
+
+.development-content .card-2 {
+    border-radius: 15px;
+    background: linear-gradient(270deg, #ffffff, #ffffff00 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 45px;
+    margin: 30px 0;
+}
+
+.card-2 .card-right {
+    width: 50%;
+}
